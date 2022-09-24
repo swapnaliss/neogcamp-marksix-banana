@@ -1,0 +1,50 @@
+body{
+    color: #FAC33C;
+    display: grid;
+    place-content: center;
+    padding: 1rem;
+    row-gap: 0.3rem;
+}
+h1{
+    font-size: 4em;
+    letter-spacing: 0.3rem;
+}
+#translate-btn{
+    padding: 1rem 3rem;
+    width: max-content;
+    font-weight: 700;
+    font-size: large;
+    background-color: transparent;
+    color: var(--primary-yellow);
+    border-radius: 7px;
+    border-color: var(--primary-yellow);
+    margin: auto;
+    outline: none;
+}
+
+button:hover{
+    background-color: var(--primary-yellow);
+    color: var(--primary-black);
+}
+
+#input-text{
+    border-radius: 9px;
+    border-color: var(--primary-yellow);
+    border-width: medium;
+    outline: none;
+    padding: 0.5rem;
+    size: 20rem;
+    width: 400px;
+}
+#output-text{
+    border-radius: 9px;
+    border-color: var(--primary-yellow);
+    border-width: medium;
+    outline: none;
+    padding: 0.5rem;
+    size: 20rem;
+    width: 400px;
+}
+main{
+    text-align: center;
+}
