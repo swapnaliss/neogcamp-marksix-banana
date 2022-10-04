@@ -48,6 +48,6 @@ button:hover{
 main{
     text-align: center;
 }
-.footer{
-    
+#errorMessage{
+    color: red;
 }
